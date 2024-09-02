@@ -12,11 +12,11 @@ import Projects from '@/sections/Projects';
 import Contact from '@/sections/Contact';
 import Loader from '@/components/Loader';
 export default function page() {
-  const [isLoading, setIsLoading]=useState(true);
-  const [showContent, setShowContent]=useState(false);
+  const [IsLoading, SetIsLoading]=useState(true);
+  const [ShowContent, SetShowContent]=useState(false);
   const handleLoaderLoaded=()=>{
-    setIsLoading(false);
-    setTimeout(()=>setShowContent(true), 450);
+    SetIsLoading(false);
+    setTimeout(()=>SetShowContent(true), 450);
   }
   return (
     <div className='app'>
@@ -24,7 +24,7 @@ export default function page() {
         <title>Andrew Wang</title>
         <link rel="shortcut icon" href="favicon.ico" />
       </Head>
-      {showContent&&(
+      {ShowContent&&(
         <>
           <Navbar/>
           <SocialIcons/>
@@ -38,7 +38,7 @@ export default function page() {
           </main>
         </>
       )}
-      <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded}/>
+      <Loader IsLoading={IsLoading} SetIsLoading={handleLoaderLoaded}/>
     </div>
   )
 }
