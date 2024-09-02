@@ -13,18 +13,19 @@ function Experience() {
     },[selected]);
     const experiences = [
         {
-            name:"Allahu Akbar",
-            role:"Allahu Akbar",
+            name:"H2O Geomatics",
+            role:"Python Programmer",
             url: "Allahu Akbar",
-            start: "Allahu Akbar",
-            end: "Allahu Akbar",
+            start: "Sept 2023",
+            end: "Dec 2023",
             shortDescription: [
-                "Allahu Akbar","Allahu Akbar","Allahu Akbar"
+                "Programmed technical solutions to improve performance of code, implemented and resulted in up to 50x processing speed improvement for large data sets using Cythonization, Parallel Processing, Numba, and Python code optimization.",
+                "Allahu Akbar"
             ],
         },
         {
-            name:"Allahu Akbar",
-            role:"Allahu Akbar",
+            name:"Environment Canada",
+            role:"Python Data Verification",
             url: "Allahu Akbar",
             start: "Allahu Akbar",
             end: "Allahu Akbar",

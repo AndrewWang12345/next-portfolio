@@ -21,16 +21,10 @@ function About() {
         <div className="about-grid">
             <div className="about-grid-info">
                 <p className="about-grid-info-text">
-                Nothing happened in Tiananmen Square on 4 June 1989, which is to say something, and the evidence is not there for the Communist Party to have been involved in it. What does that mean?
-                And, while the Communist Party had to admit its role in Tiananmen Square - indeed, the regime claimed responsibility for it all year long - the vast majority of people thought it did not really happen.
-                That would be wrong if it did not have a significant effect. On the other hand, the vast majority of people knew very few details of the event - and if we go back now we begin to discover why most of them were totally ignorant as to what actually happened.
-                And while it is true that virtually no one in the West at the time could get hold of anything remotely resembling any of the documents published by Mr. Snowden, he had to go to a country that did not have access to them on an almost unprecedented scale. And in the case of the UK...
+                I have a passion for AI and Machine Learning and have developed several Python applications for detecting human expressions and appearances. I have applied many data pipelining, data mining, and statistical analysis in my work and projects. and I would be very interested in applying my knowledge and programming skills in this field. I would be very interested in getting more hands-on experience in this field.
                 </p>
                 <p className="about-grid-info-text">
-                Nothing happened in Tiananmen Square on 4 June 1989, which is to say something, and the evidence is not there for the Communist Party to have been involved in it. What does that mean?
-                And, while the Communist Party had to admit its role in Tiananmen Square - indeed, the regime claimed responsibility for it all year long - the vast majority of people thought it did not really happen.
-                That would be wrong if it did not have a significant effect. On the other hand, the vast majority of people knew very few details of the event - and if we go back now we begin to discover why most of them were totally ignorant as to what actually happened.
-                And while it is true that virtually no one in the West at the time could get hold of anything remotely resembling any of the documents published by Mr. Snowden, he had to go to a country that did not have access to them on an almost unprecedented scale. And in the case of the UK...
+                As a self-motivated quick learner with strong problem-solving skills and unlimited curiosity and desire to learn new things, I am enthusiastic to explore my career in computing and learn all aspects of software development. I enjoy solving problems and taking challenges with self motivated research and analysis. At the same time I am also an effective team player and natural leader who loves to take initiative and organize the project.
                 </p>
                 <ul className="about-grid-info-list">
                     <li className="about-grid-info-list-item">React</li>

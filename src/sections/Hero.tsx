@@ -21,14 +21,14 @@ function Hero() {
             ease: "easeInOut",
             delay:0.75,
         }}>Andrew Wang</motion.h2>
-        <motion.h3 className='hero-title-large hero-title-sube'
+        <motion.h4 className='hero-title-large hero-title-sub'
         initial={{opacity:0, y:5}}
         animate={{opacity:1, y:0}}
         transition={{
             duration: 0.3,
             ease: "easeInOut",
             delay:1.05,
-        }}>I am gay</motion.h3>
+        }}>I am a UWaterloo student</motion.h4>
         <motion.p className='hero-text'
         initial={{opacity:0, y:5}}
         animate={{opacity:1, y:0}}
@@ -37,7 +37,7 @@ function Hero() {
             ease: "easeInOut",
             delay: 1.35,
         }}>
-            Idtrdtrdrtdtrdtcf
+            I am a Computer Engineering student at the University of Waterloo. My current focus is towards machine learning and full-stack web development.
         </motion.p>
     </div>
   )
