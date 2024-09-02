@@ -11,7 +11,7 @@ import Experience from '@/sections/Experience';
 import Projects from '@/sections/Projects';
 import Contact from '@/sections/Contact';
 import Loader from '@/components/Loader';
-export default function page() {
+export default function Page() {
   const [IsLoading, setIsLoading]=useState(true);
   const [ShowContent, setShowContent]=useState(false);
   const handleLoaderLoaded=()=>{
