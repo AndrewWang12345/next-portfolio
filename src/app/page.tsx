@@ -12,11 +12,11 @@ import Projects from '@/sections/Projects';
 import Contact from '@/sections/Contact';
 import Loader from '@/components/Loader';
 export default function page() {
-  const [IsLoading, SetIsLoading]=useState(true);
-  const [ShowContent, SetShowContent]=useState(false);
+  const [IsLoading, setIsLoading]=useState(true);
+  const [ShowContent, setShowContent]=useState(false);
   const handleLoaderLoaded=()=>{
-    SetIsLoading(false);
-    setTimeout(()=>SetShowContent(true), 450);
+    setIsLoading(false);
+    setTimeout(()=>setShowContent(true), 450);
   }
   return (
     <div className='app'>
@@ -38,7 +38,7 @@ export default function page() {
           </main>
         </>
       )}
-      <Loader IsLoading={IsLoading} SetIsLoading={handleLoaderLoaded}/>
+      <Loader IsLoading={IsLoading} setIsLoading={handleLoaderLoaded}/>
     </div>
   )
 }
