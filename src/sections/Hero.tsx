@@ -28,7 +28,7 @@ function Hero() {
             duration: 0.3,
             ease: "easeInOut",
             delay:1.05,
-        }}>I'm gay</motion.h3>
+        }}>I am gay</motion.h3>
         <motion.p className='hero-text'
         initial={{opacity:0, y:5}}
         animate={{opacity:1, y:0}}
