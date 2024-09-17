@@ -7,14 +7,16 @@ function Projects() {
     const projectsData=[
         {
             image: "/cb6.jpeg",
-            projectName: "Project",
-            projectLink: "project",
-            projectDescription: "gay",
+            projectName: "MERN Stack Chat App",
+            projectLink: "",
+            projectDescription: "The app allows users to register an account, and text any other user on the app in real time",
             projectTech:[
-                "gay", "gay", "gay",
+                "Built completely responsive webpage structured and styled using HTML/CSS with ReactJS",
+                "Stored Chat History and login information via MongoDB, encrypting passwords for security",
+                "Used Socket.IO to enable real-time, bi-directional communication between web clients and servers.",
             ],
             projectExternalLinks: {
-                github: "gay",
+                github: "https://github.com/AndrewWang12345/mern-stack-chat-app",
                 externalLink: "gay",
             },
         },

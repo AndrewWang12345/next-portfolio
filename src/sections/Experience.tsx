@@ -15,22 +15,26 @@ function Experience() {
         {
             name:"H2O Geomatics",
             role:"Python Programmer",
-            url: "Allahu Akbar",
+            url: "https://www.h2ogeomatics.com/",
             start: "Sept 2023",
             end: "Dec 2023",
             shortDescription: [
                 "Programmed technical solutions to improve performance of code, implemented and resulted in up to 50x processing speed improvement for large data sets using Cythonization, Parallel Processing, Numba, and Python code optimization.",
-                "Allahu Akbar"
+                "Utilized Modular Object Oriented Python Coding to simplify large problems",
+                "Designed and implemented an algorithm to merge raster images based on uncertainty values of each pixel as part of the machine learning/AI tool chain.",
+                "Designed and implemented Graphical User-Interface (GUI) for user friendly data file selection and operations."
             ],
         },
         {
             name:"Environment Canada",
             role:"Python Data Verification",
-            url: "Allahu Akbar",
-            start: "Allahu Akbar",
-            end: "Allahu Akbar",
+            url: "https://weather.gc.ca/",
+            start: "Jan 2023",
+            end: "April 2023",
             shortDescription: [
-                "Allahu Akbar","Allahu Akbar","Allahu Akbar"
+                "Implemented data mining algorithms and preformed time series analysis in Python to extract erroneous temperature measurements periodically collected by weather stations across North America over the span of 5 years",
+                "Coded Python/Linux AWK script to iterate through all files and detect and remove all non-Canadian stations by analyzing the coordinate location of the station",
+                "Implemented a Logistic Regression algorithm to predict the temperature at each weather station and K-nearest Neighbors Classification algorithm to label them as “erroneous” or “proper” based on its deviation from the predicted value"
             ],
         },
     ];
