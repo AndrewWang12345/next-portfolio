@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 function Projects() {
     const projectsData=[
         {
-            image: "/cb6.jpeg",
+            image: "/chat.png",
             projectName: "MERN Stack Chat App",
             projectLink: "",
             projectDescription: "The app allows users to register an account, and text any other user on the app in real time",
@@ -17,22 +17,22 @@ function Projects() {
             ],
             projectExternalLinks: {
                 github: "https://github.com/AndrewWang12345/mern-stack-chat-app",
-                externalLink: "gay",
+                externalLink: "https://github.com/AndrewWang12345/mern-stack-chat-app",
             },
         },
-        {
-            image: "/cb6.jpeg",
-            projectName: "Project",
-            projectLink: "project",
-            projectDescription: "gay",
-            projectTech:[
-                "gay", "gay", "gay",
-            ],
-            projectExternalLinks: {
-                github: "gay",
-                externalLink: "gay",
-            },
-        },
+        // {
+        //     image: "/cb6.jpeg",
+        //     projectName: "Project",
+        //     projectLink: "project",
+        //     projectDescription: "gay",
+        //     projectTech:[
+        //         "gay", "gay", "gay",
+        //     ],
+        //     projectExternalLinks: {
+        //         github: "gay",
+        //         externalLink: "gay",
+        //     },
+        // },
     ]
     return (
         <motion.div className="projects" id="work"
